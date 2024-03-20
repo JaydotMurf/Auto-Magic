@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Path to the software list configuration file
-CONFIG_PATH="./configurations/software_list.conf"
+CONFIG_PATH="Auto-Magic/Src/Linux/Scripts/Debian/apt_software_list.conf"
 
 # Function to check if apt-get update is needed based on the last update time
 check_and_update_packages() {
